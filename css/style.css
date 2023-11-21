@@ -3,7 +3,7 @@
     margin: 0;
 }
 body{
-    background-color: black;
+    background-color: white;
 }
 .layout{
     width: 960px;
@@ -69,5 +69,40 @@ body{
     background-color: orange;
     border: none;
     border-radius: 10px;
+    text-align: center;
+}
+#row3{
+    height: 360px;
+    background-color: white;
+}
+.service_section{}
+.service_section h3{
+    text-transform: uppercase;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.service_container{
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+}
+.service_item{
+    text-align: center;
+}
+.service_item i{
+    border-radius: 80px;
+    height: 80px;
+    width: 80px;
+    background-color: skyblue;
+    line-height: 80px;
+    font-size: 30px;
+}
+.service_item h3{
+    text-align: center;
+}
+.service_item p{
     text-align: center;
 }
